@@ -3,8 +3,8 @@
 This repository contains the code and supporting files for a skin cancer prediction project using the EfficientNetB0 model. The project utilizes a modified version of the HAM10000 dataset, enhanced with additional images of healthy skin, to classify various types of skin cancer lesions. The model is trained using TensorFlow and provides detailed visualizations for predictions.
 
 Check out my LinkedIn article or medium article to get detailed walkthrough article.
-LinkedIn: https://www.linkedin.com/in/yadavsidhant/
-Medium: https://medium.com/@sidhantyadav
+LinkedIn: [https://www.linkedin.com/in/yadavsidhant](https://www.linkedin.com/pulse/skin-cancer-prediction-images-using-cnn-based-based-ham10000-yadav-ezilc?trk=public_post_feed-article-content)
+Medium: [https://medium.com/@sidhantyadav](https://medium.com/@sidhantyadav/skin-cancer-prediction-by-images-using-cnn-based-efficientnetb0-based-on-ham10000-dataset-8cab0ae185bb)
 
 Or check out my Youtube Video for detailed walkthrough of the tutorial in video where I've explained all the functioning in detailed manner with the dataset modification.
 Youtube: https://www.youtube.com/watch?v=xU_rFDf2c2E
