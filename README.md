@@ -71,8 +71,6 @@ Install the packages using the following command:
 
 bash
 
-Copy code
-
 `pip install tensorflow tensorflowjs pandas matplotlib scikit-learn opencv-python`
 
 Usage
@@ -81,8 +79,6 @@ Usage
 1.  **Clone the repository:**
 
     bash
-
-    Copy code
 
     `git clone https://github.com/yourusername/skin-cancer-prediction.git
     cd skin-cancer-prediction`
@@ -95,18 +91,18 @@ Usage
 
     python
 
-    Copy code
-
     `python train.py`
 
 4.  **Run the prediction script:**
 
     python
 
-    Copy code
-
     `python predict.py --image_path path_to_image`
+    
+5. **Rin the Python Notebook (Recommended)**
 
+   Open the python notebook 'Skin_Cancer_Prediction_HAM10000.ipynb' and mount the google drive for the dataset and can also be runned over google colaboratory.
+   
 File Descriptions
 -----------------
 
