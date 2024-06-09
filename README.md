@@ -80,8 +80,7 @@ Usage
 
     bash
 
-    `git clone https://github.com/yourusername/skin-cancer-prediction.git
-    cd skin-cancer-prediction`
+    `git clone https://github.com/yadavsidhant/skin-cancer-prediction.git`
 
 2.  **Upload the dataset and CSV files:**
 
