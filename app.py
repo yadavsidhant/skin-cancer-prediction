@@ -6,8 +6,10 @@ from tensorflow.keras.preprocessing import image as keras_image
 from tensorflow.keras.models import load_model
 import streamlit as st
 
+# Constants
 IMAGE_SIZE = 128
 
+# Load model and class indices
 model = load_model('./model/skin_cancer_model.h5')
 
 with open('./model/class_indices.json', 'r') as json_file:
@@ -94,7 +96,7 @@ st.title("Skin Cancer Prediction")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
-    image_path = uploaded_file.name
+    image_path = f"./{uploaded_file.name}"
     with open(image_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
     
