@@ -4,20 +4,13 @@ import cv2
 import json
 from tensorflow.keras.preprocessing import image as keras_image
 from tensorflow.keras.models import load_model
-from tensorflow.keras.models import load_model, save_model
-
-# Load your model
-model = load_model('path_to_your_model.h5')
-
-# Save it again
-save_model(model, 'new_path_to_your_model')
 import streamlit as st
 
 # Constants
 IMAGE_SIZE = 128
 
 # Load model and class indices
-model = load_model('./model/skin_cancer_model')
+model = load_model('./model/skin_cancer_model.h5')
 
 with open('./model/class_indices.json', 'r') as json_file:
     class_indices = json.load(json_file)
